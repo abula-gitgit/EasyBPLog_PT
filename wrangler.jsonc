@@ -5,6 +5,12 @@
   "observability": {
     "enabled": true
   },
+  "routes": [
+    {
+      "pattern": "bppt.easy-log.app",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "dist",
     "not_found_handling": "single-page-application"
